@@ -14,7 +14,7 @@ class EpicWarScraper:
 
     _base_url = 'https://www.epicwar.com/maps/'
 
-    def __init__(self, store, sleep=.0):
+    def __init__(self, store, sleep=.5):
         self.store = store
         self.session = requests.Session()
         self.sleep = sleep
